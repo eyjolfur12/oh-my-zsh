@@ -1,6 +1,11 @@
 alias la="ls -lshAG"
+alias gcom "git commit -a -m"
 alias ga="git add ."
 alias gs="git status"
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias gps="git push origin"
+alias gpl="git pull origin"
+alias gf="git fetch origin"
+alias gm="git merge"
+alias gb="git branch"
+alias gst="git stash"
+alias gd="git diff"
